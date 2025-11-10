@@ -53,3 +53,22 @@ The dataset contains Airbnb listings information including:
 1. Clone the repository:  
 ```bash
 git clone https://github.com/yourusername/Airbnb-Data-Analysis.git
+
+2. Open the Jupyter Notebook:
+cd Airbnb-Data-Analysis
+jupyter notebook
+
+3. Install required libraries if not already installed:
+pip install pandas numpy matplotlib seaborn
+Run all cells sequentially.
+
+4. Screenshots
+
+![Price Distribution](images/price_histogram.png)
+![Room Type vs Price](images/roomtype_boxplot.png)
+![Reviews Over Time](images/reviews_over_time.png)
+
+
+
+Author
+Diksha Bhul
