@@ -64,9 +64,15 @@ Run all cells sequentially.
 
 4. Screenshots
 
+### Price Distribution
 ![Price Distribution](images/price_histogram.png)
+
+### Room Type vs Price
 ![Room Type vs Price](images/roomtype_boxplot.png)
+
+### Reviews Over Time
 ![Reviews Over Time](images/reviews_over_time.png)
+
 
 
 
