@@ -5,18 +5,16 @@ This project explores and analyzes Airbnb listings to uncover trends, patterns, 
 
 **Tech Stack:** Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, Power BI, Excel, Jupyter Notebook
 
----
 
 ## Dataset
 The dataset contains Airbnb listings information including:  
 - Listing ID, Name, Host Name  
 - Neighborhood, Room Type  
 - Price, Service Fee  
-- Number of Reviews, Last Review  
+- Number of Reviews, Last Review etc
 
 > **Note:** For privacy and size reasons, a sample of the dataset is included. Full dataset can be linked or loaded separately.
 
----
 
 ## Project Steps
 
@@ -40,38 +38,39 @@ The dataset contains Airbnb listings information including:
 - Created clear visualizations in **Python (Matplotlib & Seaborn)**  
 - Built interactive dashboards using **Power BI** to present actionable insights  
 
----
-
 ## Key Insights
 - Entire apartments are generally more expensive than private or shared rooms  
 - Manhattan has the highest number of listings; Bronx has the fewest  
-- Reviews peak during certain months, indicating seasonal demand  
+- Reviews peak during certain months, indicating seasonal demand
 
----
+
+## Screenshot 
+
+### Price Distribution
+![Price Distribution](images/images/price_histogram.png)
+
+### Room Type vs Price
+![Room Type vs Price](images/images/roomtype_boxplot.png)
+
+### Reviews Over Time
+![Reviews Over Time](images/images/reviews_over_time.png)
+
 
 ## How to Run
 1. Clone the repository:  
-```bash
+
 git clone https://github.com/yourusername/Airbnb-Data-Analysis.git
 
 2. Open the Jupyter Notebook:
+
 cd Airbnb-Data-Analysis
 jupyter notebook
 
 3. Install required libraries if not already installed:
+
 pip install pandas numpy matplotlib seaborn
 Run all cells sequentially.
 
-4. Screenshots
-
-### Price Distribution
-![Price Distribution](images/price_histogram.png)
-
-### Room Type vs Price
-![Room Type vs Price](images/roomtype_boxplot.png)
-
-### Reviews Over Time
-![Reviews Over Time](images/reviews_over_time.png)
 
 
 
